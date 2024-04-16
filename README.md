@@ -1,3 +1,16 @@
+# Netflix Clone 
+## Description:
+* This project is a clone of the popular streaming platform Netflix. It aims to replicate the main features and user interface of Netflix, allowing users to browse movies, TV shows, and other content, as well as sign up, sign in, and manage their accounts.
+
+## Features:
+* Sign up for a new account
+* Sign in to an existing account
+* Play video content
+* Responsive design for various screen sizes
+
+## License:
+This project is licensed under the  License. See the LICENSE file for more details.
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
