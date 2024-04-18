@@ -15,6 +15,25 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
+## Environmental Variables
+To run this project, you will need to add the following environment variables to your .env file
+
+REACT_APP_API_KEY - Your TMDB API key for fetching movie details
+
+## API Reference
+
+The Netflix clone utilizes the TMDB (The Movie Database) API to fetch movie details, images, and trailers. Below is a brief overview of the API endpoints used in the project.
+
+### Base URL
+
+All API requests are made to the following base URL:
+https://api.themoviedb.org/3/
+
+### Authentication
+
+Requests to TMDB require an API key. Include your API key in all requests:
+?api_key=your_api_key
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -46,14 +65,86 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Setup
+To run this project, install it locally using npm:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/thrishalaa/netflix-clone/assets/147584982/a52e9b5c-0fe1-4cc8-854b-1bc2752bc428)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## App Preview
+
+Below are some screenshots from the Netflix Clone, showcasing various features and the user interface
+
+### Signup Screen
+
+The Signup Screen is the entry point to the Netflix clone, where users can either sign in to their existing account or register for a new one. It is designed to be user-friendly and straightforward, ensuring a seamless onboarding experience.
+
+![Screenshot 2024-04-16 112502](https://github.com/thrishalaa/netflix-clone/assets/147584982/b510a762-97c4-4c87-ae18-a624bd71fd8c)
+
+
+
+### Login Screen
+
+The login screen provides users with a simple and secure login interface. Users can enter their credentials to access their personalized streaming dashboard.
+
+![Screenshot 2024-04-16 112530](https://github.com/thrishalaa/netflix-clone/assets/147584982/52856b00-979e-4cf2-a5fd-3c68a4f1c96c)
+
+
+### Home Screen
+
+The Home screen provides the main interface displaying trending movies and categories.
+
+![Screenshot 2024-04-16 112650](https://github.com/thrishalaa/netflix-clone/assets/147584982/fd1f7a70-a1f3-4a14-b591-3912818349eb)
+
+
+![Screenshot 2024-04-16 112858](https://github.com/thrishalaa/netflix-clone/assets/147584982/0e15d4d0-6143-4ca2-b41a-39e1e14fd06a)
+
+
+### Profile Screen
+
+The Profile Screen displays user-specific data. Users can view their current plan and upgrade or downgrade their subscription. It allows users to log out of the application using SignOut button.
+
+![Screenshot 2024-04-16 112934](https://github.com/thrishalaa/netflix-clone/assets/147584982/592b1af9-b2b2-4b12-83b7-b1b43ce9376c)
+
+
+### Watch Trailer 
+
+A view of the trailer playing functionality.
+
+![Screenshot 2024-04-16 112827](https://github.com/thrishalaa/netflix-clone/assets/147584982/a11b57a4-a06b-4520-a83a-cb9b7d8cffd1)
+
+
+## Future Scope
+
+The Netflix Clone is continuously evolving, and there are several enhancements planned for future releases that aim to enrich user experience and expand functionality:
+
+* User Profiles: Introduction of personalized user profiles allowing multiple users to access the app with personalized settings and content.
+* Advanced Recommendation System: Implement a machine learning-based recommendation system to suggest movies and shows based on user preferences and viewing history.
+* Offline Viewing: Allow users to download movies and shows to watch offline.
+* Multi-Language Support: Add support for multiple languages for the app interface as well as for the content subtitles.
+* Parental Controls: Implement parental control settings to restrict content based on age ratings.
+
+These features are aimed at making the Netflix Clone more robust, user-friendly, and accessible to a broader audience.
+
+## Known Bugs
+
+Transparency about issues is crucial for building a reliable software solution. Here are some known issues that are currently being addressed:
+
+* Trailer Playback Issues: Some users have reported that movie trailers do not always load correctly. This issue is often related to API limitations or data mismatches.
+* Responsive Design Glitches: Some responsive design inconsistencies on tablets and mobile devices affect usability.
+* Slow Load Times: Increased load times have been observed for movie lists and detail views, particularly when fetching large datasets.
+
+
+## License
+Distributed under the MIT License. See LICENSE for more information.
+
+## Acknowledgements
+* TMDB for providing the API to fetch movie information
+* Icons and images are sourced from various libraries and stock photo websites
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
