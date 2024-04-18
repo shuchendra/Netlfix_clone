@@ -65,12 +65,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Setup
-To run this project, install it locally using npm:
-
-![image](https://github.com/thrishalaa/netflix-clone/assets/147584982/a52e9b5c-0fe1-4cc8-854b-1bc2752bc428)
-
-## App Preview
+# App Preview
 
 Below are some screenshots from the Netflix Clone, showcasing various features and the user interface
 
@@ -78,39 +73,41 @@ Below are some screenshots from the Netflix Clone, showcasing various features a
 
 The Signup Screen is the entry point to the Netflix clone, where users can either sign in to their existing account or register for a new one. It is designed to be user-friendly and straightforward, ensuring a seamless onboarding experience.
 
-![Screenshot 2024-04-16 112502](https://github.com/thrishalaa/netflix-clone/assets/147584982/b510a762-97c4-4c87-ae18-a624bd71fd8c)
-
+![image](https://github.com/shuchendra/Netlfix_clone/assets/124861829/55ee9e06-0ca7-45cf-adec-c99afe7ca34b)
 
 
 ### Login Screen
 
 The login screen provides users with a simple and secure login interface. Users can enter their credentials to access their personalized streaming dashboard.
 
-![Screenshot 2024-04-16 112530](https://github.com/thrishalaa/netflix-clone/assets/147584982/52856b00-979e-4cf2-a5fd-3c68a4f1c96c)
+![image](https://github.com/shuchendra/Netlfix_clone/assets/124861829/c4af4439-6685-4e19-a028-f9f5fd1baceb)
+
 
 
 ### Home Screen
 
 The Home screen provides the main interface displaying trending movies and categories.
 
-![Screenshot 2024-04-16 112650](https://github.com/thrishalaa/netflix-clone/assets/147584982/fd1f7a70-a1f3-4a14-b591-3912818349eb)
+![image](https://github.com/shuchendra/Netlfix_clone/assets/124861829/aa5cad16-a7ea-49af-a855-4c006da0342d)
 
 
-![Screenshot 2024-04-16 112858](https://github.com/thrishalaa/netflix-clone/assets/147584982/0e15d4d0-6143-4ca2-b41a-39e1e14fd06a)
+![image](https://github.com/shuchendra/Netlfix_clone/assets/124861829/57912036-816f-4cb1-b62d-3650ab1beccf)
+
 
 
 ### Profile Screen
 
-The Profile Screen displays user-specific data. Users can view their current plan and upgrade or downgrade their subscription. It allows users to log out of the application using SignOut button.
+The Profile Screen displays user-specific data. Users can view their current plan and upgrade or downgrade their subscription. It allows users to log out of the application using the SignOut button.
 
-![Screenshot 2024-04-16 112934](https://github.com/thrishalaa/netflix-clone/assets/147584982/592b1af9-b2b2-4b12-83b7-b1b43ce9376c)
+![image](https://github.com/shuchendra/Netlfix_clone/assets/124861829/c83aae45-7a5a-40af-b970-c2c6e90fdddc)
 
 
 ### Watch Trailer 
 
-A view of the trailer playing functionality.
+A trailer playing functionality , with the movie's screen time and also its genres. 
 
-![Screenshot 2024-04-16 112827](https://github.com/thrishalaa/netflix-clone/assets/147584982/a11b57a4-a06b-4520-a83a-cb9b7d8cffd1)
+![image](https://github.com/shuchendra/Netlfix_clone/assets/124861829/6506b2d4-71d8-4625-81db-395b5a3bc0f5)
+
 
 
 ## Future Scope
